@@ -20,13 +20,12 @@ int main() {
     printf("Cadastro da Carta 1:\n");
 
     printf("Estado (ex: SP): ");
-    scanf(" %[^\n]", estado1); // Corrigido
-
+    scanf(" %[^\n]", estado1); 
     printf("Codigo (ex: A01): ");
-    scanf(" %[^\n]", codigo1); // Corrigido
+    scanf(" %[^\n]", codigo1); 
 
     printf("Cidade (ex: Sao Paulo): ");
-    scanf(" %[^\n]", cidade1); // Corrigido
+    scanf(" %[^\n]", cidade1); 
 
     printf("Populacao: ");
     scanf("%d", &populacao1);
@@ -43,13 +42,13 @@ int main() {
     printf("\nCadastro da Carta 2:\n");
 
     printf("Estado (ex: RJ): ");
-    scanf(" %[^\n]", estado2); // Corrigido
+    scanf(" %[^\n]", estado2); 
 
     printf("Codigo (ex: B02): ");
-    scanf(" %[^\n]", codigo2); // Corrigido
+    scanf(" %[^\n]", codigo2); 
 
     printf("Cidade (ex: Rio de Janeiro): ");
-    scanf(" %[^\n]", cidade2); // Corrigido
+    scanf(" %[^\n]", cidade2); 
 
     printf("Populacao: ");
     scanf("%d", &populacao2);
